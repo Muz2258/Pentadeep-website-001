@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@300&display=swap');
+
+:root {
+
+  /* Browser font-size */
+
+  font-size: 16px;
+
+
+  /* Color pallete */
+
+  --pb-shade-02: #000081;
+  --pb-shade-01: #0000B2;
+  --pentablue: #0000FF;
+  --py-tone-01: #ECE000;
+  --pentayellow: #FFF200;
+  --white: #FFFFFF;
+  --black: #000000;
+  --grey-01: #141414;
+  --grey-03: #939598;
+  --grey-04: #CBCBCB;
+  --grey-05: #E6E7E8; 
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Character styles for different screen resolutions on desktop - START*/
+
+
+/* 2560px width */
+
+@media screen and (min-width: 2560px) {
+
+  .title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 10.64rem;
+    line-height: 1.04em;
+  }
+
+  .heading-01 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 1.33rem;
+  }
+
+  .heading-02 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 5.32rem;
+    line-height: 1.13em;
+  }
+
+  .heading-03 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 4.65rem;
+    line-height: 1.29em;
+  }
+
+  .heading-04 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.33em;
+  }
+
+  .body-01 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 2.66rem;
+    line-height: 1.38em;
+  }
+
+  .body-02 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 2.33rem;
+    line-height: 1.5em;
+  }
+
+  .body-03 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.5em;
+  }
+
+  .body-04 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.66rem;
+    line-height: 1.6em;
+  }
+
+  .body-05 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.33em;
+  }
+}
+
+
+/* 1920px width */
+
+@media screen and (max-width: 1920px) {
+
+  .title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 8rem;
+    line-height: 1.04em;
+  }
+
+  .heading-01 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 4.5rem;
+    line-height: 1.33rem;
+  }
+
+  .heading-02 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.13em;
+  }
+
+  .heading-03 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.29em;
+  }
+
+  .heading-04 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.33em;
+  }
+
+  .body-01 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.38em;
+  }
+
+  .body-02 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.75rem;
+    line-height: 1.5em;
+  }
+
+  .body-03 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1.5em;
+  }
+
+  .body-04 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.6em;
+  }
+
+  .body-05 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.33em;
+  }
+}
+
+
+/* 1366px width */
+
+@media screen and (max-width: 1366px) {
+
+  .title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 5.68rem;
+    line-height: 1.04em;
+  }
+
+  .heading-01 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3.19rem;
+    line-height: 1.33rem;
+  }
+
+  .heading-02 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.84rem;
+    line-height: 1.13em;
+  }
+
+  .heading-03 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.48rem;
+    line-height: 1.29em;
+  }
+
+  .heading-04 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.13rem;
+    line-height: 1.33em;
+  }
+
+  .body-01 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.42rem;
+    line-height: 1.38em;
+  }
+
+  .body-02 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.24rem;
+    line-height: 1.5em;
+  }
+
+  .body-03 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.06rem;
+    line-height: 1.5em;
+  }
+
+  .body-04 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.89rem;
+    line-height: 1.6em;
+  }
+
+  .body-05 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.80rem;
+    line-height: 1.33em;
+  }
+}
+
+
+/* 1280px width */
+
+@media screen and (max-width: 1280px) {
+
+  .title {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 5.36rem;
+    line-height: 1.04em;
+  }
+
+  .heading-01 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 3.01rem;
+    line-height: 1.33rem;
+  }
+
+  .heading-02 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.68rem;
+    line-height: 1.13em;
+  }
+
+  .heading-03 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.34rem;
+    line-height: 1.29em;
+  }
+
+  .heading-04 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 2.01rem;
+    line-height: 1.33em;
+  }
+
+  .body-01 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.34rem;
+    line-height: 1.38em;
+  }
+
+  .body-02 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1.17rem;
+    line-height: 1.5em;
+  }
+
+  .body-03 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+
+  .body-04 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.84rem;
+    line-height: 1.6em;
+  }
+
+  .body-05 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    line-height: 1.33em;
+  }
+}
+
+/* Character styles for different screen resolutions on desktop - END*/
+
+/* Page styling for desktop devices - START */
+
+@media screen and (max-width: 1920px) {
+  
+  /* Navigation */
+
+  .topNav {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: none;
+    width: 100vw;
+    height: 5.81rem;
+    padding: 0 8.33vw;
+  }
+
+  #logo {
+    width: 7vw;
+    height: auto;
+  }
+
+  .list-item {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1.6em 2.2em;
+    position: relative;
+  }
+
+  .list-item.active::after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 4px;
+    background-color: var(--pentayellow);
+  }
+
+  #sticky {
+    display: none;
+  }
+
+  /* Home page styling */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  #hero, #af-01, #af-02, footer {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    gap: 0 0;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    width: 100vw;
+    height: 100vh;
+  }
+
+  footer {
+    display: none;
+  }
+
+  /* Hero section styling - START */
+
+  #hero {
+    background: url("/Resources/Vectors/Artwork-hero.svg") no-repeat right bottom/75vh 75vh, linear-gradient(222deg, var(--pentablue), var(--pb-shade-02));
+  }
+
+  #hero .title {
+    grid-column: 3/8;
+    grid-row: 4/8;
+    color: var(--white);
+  }
+
+  #hero .body-01 {
+    grid-column: 3/8;
+    grid-row: 8/10;
+    color: var(--white);
+  }
+
+  button {
+    background-color: var(--pentayellow);
+    border: none;
+    display: inline-block;
+  }
+
+  .inPage-button {
+    grid-column: 3/8;
+    grid-row: 10/11;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    text-align: left;
+    cursor: pointer;
+    justify-self: start;
+    align-self: end;
+  }
+
+  #scroll-indicator {
+    grid-column: 6/8;
+    grid-row: 11/13;
+    justify-self: center;
+    align-self: center;
+    width: 2.9vw;
+    height: auto;
+  }
+
+  /* Hero section styling - END */
+
+
+  /* After the fold section 01 styling - START */
+
+  #af-01 {
+    background: url(/Resources/Vectors/Artwork-s2.svg) no-repeat top left/auto 100%, var(--black);
+  }
+  
+  #content-block-01 {
+    grid-column: 5/11;
+    grid-row: 3/10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3.3vw 3.7vw;
+    background-color: var(--grey-01);
+  }
+
+  #af-01 .heading-02 {
+    color: var(--pentayellow);
+    align-self: start;
+  }
+
+  #af-01 .body-02, #af-01 .text-link {
+    color: var(--white);
+  }
+
+  #af-01 .text-link {
+    text-decoration: none;
+  }
+
+  #af-01 .text-link:hover {
+    text-decoration: underline;
+    color: var(--pentayellow);
+  }
+  
+  /* After the fold section 01 styling - END */
+
+  
+  /* After the fold section 02 styling - START */
+}
+
