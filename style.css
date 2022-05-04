@@ -349,8 +349,17 @@
     justify-content: space-between;
     background-color: none;
     width: 100vw;
-    height: 5.81rem;
+    height: 4.8vw;
     padding: 0 8.33vw;
+  }
+
+  .list-item {
+    text-decoration: none;
+    color: var(--white);
+  }
+
+  .list-item:hover {
+    color: var(--pentayellow);
   }
 
   #logo {
@@ -358,9 +367,7 @@
     height: auto;
   }
 
-  .list-item {
-    text-decoration: none;
-    color: var(--white);
+  .topNav .list-item {
     padding: 1.6em 2.2em;
     position: relative;
   }
@@ -399,9 +406,6 @@
     height: 100vh;
   }
 
-  footer {
-    display: none;
-  }
 
   /* Hero section styling - START */
 
@@ -425,15 +429,15 @@
     background-color: var(--pentayellow);
     border: none;
     display: inline-block;
+    cursor: pointer;
   }
 
-  .inPage-button {
+  #hero .inPage-button {
     grid-column: 3/8;
     grid-row: 10/11;
     margin-top: 1rem;
-    padding: 1rem 2rem;
+    padding: 0.57em 1.14em;
     text-align: left;
-    cursor: pointer;
     justify-self: start;
     align-self: end;
   }
@@ -488,5 +492,137 @@
 
   
   /* After the fold section 02 styling - START */
+
+  #af-02 {
+    background-color: var(--grey-01);
+  }
+
+  #af-02 .heading-02 {
+    grid-column: 3/11;
+    grid-row: 3/4;
+    color: var(--white);
+  }
+
+  #content-block-02 {
+    grid-column: 3/11;
+    grid-row: 5/13;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card-small {
+    display: flex;
+    width: 22vw;
+    height: auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 4.6vw 2.5vw;
+  }
+
+  #search {
+    background-color: var(--pentablue);
+    color: var(--white);
+  }
+
+  #strategy {
+    background-color: var(--black);
+    color: var(--white);
+  }
+
+  #design {
+    background-color: var(--pentayellow);
+    color: var(--black);
+  }
+
+  .desc-icon {
+    width: 4.5vw;
+    height: auto;
+    margin-bottom: 1.67vw;
+  }
+
+  .card-small .heading-04 {
+    margin-bottom: 1.45vw;
+  }
+
+  .card-small .body-03 {
+    opacity: 0.8;
+  }
+
+  /* After the fold section 02 styling - END */
+
+  
+  /* Footer styling - START */
+
+  #content-block-03 {
+    grid-column: 1/7;
+    grid-row: 1/13;
+    background: url(/Resources/Vectors/Artwork-footer.svg) no-repeat left bottom/76.3vh 76.3vh, var(--pb-shade-01);
+    padding: 25vh 8.3vw 25vh 16.67vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  #content-block-03 .heading-02, #content-block-03 .body-03 {
+    color: var(--white);
+  }
+
+  #f-copy {
+    padding-right: 3.7vw;
+  }
+
+  #content-block-03 .inPage-button {
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding: 0.57em 1.14em;
+  }
+
+  #social-block .body-03 {
+    margin-bottom: 0.6vw;
+  }
+
+  .social-icon {
+    width: 2.9vw;
+    height: auto;
+    margin: 0 0.6vw 0 0;
+  }
+
+  #content-block-04 {
+    grid-column: 7/13;
+    grid-row: 1/13;
+    background-color: var(--pentablue);
+    padding: 25vh 16.67vw 16.67vh 8.33vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: flex-end;
+    text-align: right;
+    color: var(--white);
+  }
+
+  #navList-bottom {
+    margin-bottom: 5vw;
+    height: 4.4vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: space-between;
+  }
+
+  #navList-bottom .list-item {
+    margin-left: 3.33vw;
+  }
+
+  #navList-bottom.list-item.active {
+    color: var(--pentayellow);
+  }
+
+  #content-block-04 .disclaimer::after {
+    content: 'BN - 4235678';
+    color: var(--pentayellow);
+    font-weight: 600;
+  }
+
+  /* Footer styling - END */
 }
 
