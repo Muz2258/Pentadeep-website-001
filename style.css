@@ -17,6 +17,7 @@
   --white: #FFFFFF;
   --black: #000000;
   --grey-01: #141414;
+  --grey-02: #848587;
   --grey-03: #939598;
   --grey-04: #CBCBCB;
   --grey-05: #E6E7E8; 
@@ -348,7 +349,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     height: 4.7vw;
     padding: 0 8.33vw;
   }
@@ -433,6 +434,7 @@
 
   .nav-button {
     padding: 0.6em 1.2em;
+    margin-left: 1.25vw;
   }
 
   /* Styling for header navigation - END */
@@ -696,12 +698,7 @@
 
   /* Body styling - START */
 
-  /* body {
-    height: 100%;
-  } */
-
   body #lines {
-    width: 100vw;
     height: 100%;
     position: fixed;
     z-index: -4;
@@ -745,14 +742,15 @@
 
   #who-sect-01 {
     display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    padding: 24.99vh 20.83vw 16.67vh 20.83vw;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 14.06vw 20.83vw 9.37vw 20.83vw;
     height: 91.67vh;
   }
 
   #who-sect-01 .heading-01 {
     color: var(--pb-shade-01);
+    margin-bottom: 2.92vw;
   }
 
   .body-02 a {
@@ -769,7 +767,6 @@
   /* Section 02 - START */
 
   #who-sect-02 {
-    width: 100vw;
     height: 50vh;
     display: flex;
     align-items: center;
@@ -807,7 +804,6 @@
   /* Section 03 - START */
 
   #who-sect-03 {
-    width: 100vw;
     /* height: 60.93vw; */
     height: auto;
     /* background-color: var(--white); */
@@ -841,11 +837,125 @@
   }
 
   .teammate .body-05, .qualTitle {
-    color: var(--grey-03);
+    color: var(--grey-01);
   }
 
   /* Section 03 - END */
 
   /* Who we are page styling - END */
+
+
+
+  /* How we do it page styling - START */
+
+  /* Section 01 - START */
+
+  #how-sect-01 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 14.06vw 20.83vw 9.37vw 20.83vw;
+    height: 91.67vh;
+  }
+
+  #how-sect-01 .heading-01 {
+    color: var(--pb-shade-01);
+    margin-bottom: 2.92vw;
+  }
+
+  /* Section 01 - END */
+
+  /* Section 02 - START */
+
+  #how-sect-02 {
+    height: 75vh;
+    padding-left: 20.83vw;
+    padding-right: 20.83vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    background: url(/Resources/Vectors/Artwork-how-s2.svg) no-repeat left bottom/auto 100%, var(--black);
+    text-align: right;
+  }
+
+  #how-sect-02 .heading-03 {
+    color: var(--pentayellow);
+    margin-bottom: 2.92vw;
+  }
+
+  #how-sect-02 .body-02 {
+    color: var(--grey-05);
+    padding-left: 12.5vw;
+  }
+
+  /* Section 02 - END */
+
+  /* Section 03 - START */
+
+  #how-sect-03 {
+    padding: 9.37vw 20.83vw;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+  }
+
+  #how-sect-03 .heading-03 {
+    margin-bottom: 2.29vw;
+  }
+
+  #how-sect-03 .body-02 {
+    margin-bottom: 6.67vw;
+  }
+
+  #process-block {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  #process-block .heading-04 {
+    margin-bottom: 1.87vw;
+  }
+
+  #block-01, #block-02, #block-04, #block-05 {
+    width: 50%;
+    height: 23.44vw;
+    padding: 4.17vw;
+  }
+
+  #block-01 .body-04, #block-03 .body-04, #block-05 .body-04 {
+    color: var(--grey-05);
+  }
+
+  #block-01 .heading-04, #block-03 .heading-04, #block-05 .heading-04 {
+    color: var(--white);
+  }
+
+  #block-01 {
+    background-color: var(--pb-shade-01);
+  }
+
+  #block-02 {
+    background-color: var(--pentayellow);
+  }
+
+  #block-03 {
+    width: 100%;
+    height: 18.75vw;
+    padding: 4.17vw 12.5vw;
+    background: url(/Resources/Vectors/text-03.svg) no-repeat left top/auto 7.8vw, var(--black);
+  }
+
+  #block-04 {
+    background-color: var(--grey-03);
+  }
+
+  #block-05 {
+    background-color: var(--pentablue);
+  }
+  
+  /* Section 03 - END */
+
+  /* How we do it page styling - END */
 }
 
