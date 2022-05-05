@@ -932,11 +932,11 @@
   }
 
   #block-01 {
-    background-color: var(--pb-shade-01);
+    background: url(/Resources/Vectors/text-01.svg) no-repeat left top/auto 7.8vw, var(--pb-shade-01);
   }
 
   #block-02 {
-    background-color: var(--pentayellow);
+    background: url(/Resources/Vectors/text-02.svg) no-repeat left top/auto 7.8vw, var(--pentayellow);
   }
 
   #block-03 {
@@ -947,11 +947,11 @@
   }
 
   #block-04 {
-    background-color: var(--grey-03);
+    background: url(/Resources/Vectors/text-04.svg) no-repeat left top/auto 7.8vw, var(--grey-03);
   }
 
   #block-05 {
-    background-color: var(--pentablue);
+    background: url(/Resources/Vectors/text-05.svg) no-repeat left top/auto 7.8vw, var(--pentablue);
   }
   
   /* Section 03 - END */
